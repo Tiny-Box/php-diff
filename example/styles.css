@@ -87,6 +87,11 @@ body {
 	background: #e99;
 }
 
+.Differences ins, .Differences del {
+	text-decoration: none;
+	white-space: pre-wrap;
+}
+
 pre {
 	width: 100%;
 	overflow: auto;
