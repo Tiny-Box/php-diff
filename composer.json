@@ -1,26 +1,26 @@
 {
-	"name": "php-diff",
-	"license": "BSD-3-Clause",
-	"type": "library",
-	"description": "A comprehensive library for generating differences between two hash able objects (strings or arrays).",
-	"keywords": [
-		"php",
-		"diff"
-	],
-	"authors": [
-		{
-			"name": "Chris Boulton"
-		},
-		{
-			"name": "Mario / JBlond"
-		},
-        {
-            "name": "TinyBox"
-        }
-	],
-	"autoload": {
-		"psr-4": {
-		   "Diff": "lib/"
-		}
-	}
+  "name": "php-diff",
+  "license": "BSD-3-Clause",
+  "type": "library",
+  "description": "A comprehensive library for generating differences between two hash able objects (strings or arrays).",
+  "keywords": [
+    "php",
+    "diff"
+  ],
+  "authors": [
+    {
+      "name": "Chris Boulton"
+    },
+    {
+      "name": "Mario / JBlond"
+    },
+    {
+      "name": "TinyBox"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Diff": "lib/"
+    }
+  }
 }
