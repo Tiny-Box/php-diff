@@ -1,7 +1,7 @@
 {
   "name": "tinybox/php-diff",
   "license": "BSD-3-Clause",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "library",
   "description": "A comprehensive library for generating differences between two hash able objects (strings or arrays).",
   "keywords": [
@@ -24,7 +24,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Diff/": "lib/"
+      "Diff\\": "lib/"
     }
   }
 }
