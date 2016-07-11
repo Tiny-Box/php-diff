@@ -8,6 +8,9 @@
     "php",
     "diff"
   ],
+  "repositories": [
+    {"type": "composer", "url": "https://packagist.baixing.cn/repo/private/"}
+  ],
   "authors": [
     {
       "name": "Chris Boulton"
