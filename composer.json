@@ -23,8 +23,8 @@
     }
   ],
   "autoload": {
-    "psr-4": {
-      "tinybox\\Diff\\": "lib/"
-    }
+      "classmap": [
+        "src/"
+      ]
   }
 }
