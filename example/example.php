@@ -45,6 +45,15 @@
 		echo $diff->render($renderer);
 
 		?>
+		<h2>Simple Diff</h2>
+		<?php
+
+		// Generate an simple diff
+		require_once dirname(__FILE__).'/../lib/Diff/Renderer/Html/Simple.php';
+		$renderer = new Diff_Renderer_Html_Simple;
+		echo $diff->render($renderer);
+
+		?>
 		<h2>Unified Diff</h2>
 		<pre><?php
 
